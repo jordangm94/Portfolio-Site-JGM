@@ -1,11 +1,12 @@
 import React from 'react';
+import Cards from './components/profileCard';
 
 function App() {
 	return (
-		<div className="App">
-			<h1 className="text-6xl text-red-500">
-				Hello from tailwind CSS in React!
-			</h1>
+		<div className="bg-black flex">
+			<div className="flex flex-row overflow-visible">
+				<Cards />
+			</div>
 		</div>
 	);
 }
